@@ -1,0 +1,32 @@
+.main-home-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-section-container{
+  margin-top: 150px;
+  margin-bottom: 55px;
+}
+
+.welcome-paragraph{
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.company{
+  color: rgb(226, 43, 116);
+  font-weight: 700;
+}
+
+
+@media (max-width:545px){
+  .welcome-paragraph{
+    font-size: 30px;
+  }
+  .hero-section-container{
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+}
